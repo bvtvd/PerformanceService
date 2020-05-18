@@ -1,4 +1,4 @@
-### 对接业绩中心
+### performance center service
 
 useage
 ```
@@ -12,7 +12,7 @@ $service = new PerformanceService([
 
 $data = [];
 
-// 同步业绩到业绩中心
+// sync
 $result = $service->syncPerformanceLog($data);
 
 var_dump($result);

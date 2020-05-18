@@ -35,6 +35,8 @@ class PerformanceService
      * 
      * @param array $data 业绩数据, 共 4 条
      * 
+     * @return bool
+     * 
      */
     public function syncPerformanceLog($data)
     {
